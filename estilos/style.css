@@ -36,7 +36,8 @@ header > h1 {
     background-image: url(/imagens/imagem-banner-note.jpg);
     background-position: center center;
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--cor7);
 }
 
