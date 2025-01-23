@@ -69,6 +69,14 @@ main {
     max-width: 800px;
 }
 
+ul {
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    line-height: 1.3;
+    list-style-type: square;
+    padding-left: 30px;   
+}
+
 section > h2 { 
     background-image: linear-gradient(to right, var(--cor6), var(--cor7));
     color: #fff;
