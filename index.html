@@ -1,109 +1,264 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emilio Sarges</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <footer>
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">emiliosarges.com</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Para quem é</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Demonstrações</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Como funciona</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre mim</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Fale comigo
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Whatsapp</a></li>
-                      <li><a class="dropdown-item" href="#">Envie um e-mail</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Formulário de contato</a></li>
-                    </ul>
+      <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark" id="home">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">emiliosarges.com</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#praqueme">Para quem é</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#demonstracoes">Demonstrações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#comofunciona">Como funciona</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobremim">Sobre mim</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fale comigo
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                  <li><a class="dropdown-item" href="#">Envie um e-mail</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Formulário de contato</a>
                   </li>
                 </ul>
-              </div>
-            </div>
-        </nav>
-    </footer>
-    <div>
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
-
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Seja encontrado no Google</h5>
-                  <p>Seus clientes estão procurando por você agora.</p>
-                </div>
-              </div>
-              <div class="carousel-item active">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Foque no que você faz de melhor</h5>
-                  <p>Deixe o digital comigo.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Invista na sua imagem</h5>
-                  <p>Um bom site gera mais confiança e mais clientes.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+    </footer>
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class=""
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+              width="800"
+              height="400"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: First slide"
+              preserveAspectRatio="xMidYMid slice"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
+            </svg>
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seja encontrado no Google</h5>
+              <p>Seus clientes estão procurando por você agora.</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+              width="800"
+              height="400"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: Second slide"
+              preserveAspectRatio="xMidYMid slice"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#666"></rect>
+              <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text>
+            </svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Foque no que você faz de melhor</h5>
+              <p>Deixe o digital comigo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+              width="800"
+              height="400"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: Third slide"
+              preserveAspectRatio="xMidYMid slice"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#555"></rect>
+              <text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text>
+            </svg>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Invista na sua imagem</h5>
+              <p>Um bom site gera mais confiança e mais clientes.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section id="servicos" class="servicos sections">
+        <h2>Serviços</h2>
+        <h3>Transforme Seu Negócio com um Site Profissional!</h3>
+
+        <p>Você sabia que, hoje em dia, ter um site personalizado e otimizado pode ser a chave para atrair mais clientes e fazer seu negócio crescer? Se você é um profissional autônomo e ainda não tem um site, está perdendo oportunidades valiosas! Mas calma, você não precisa ser um especialista em tecnologia para aproveitar isso.</p>
+
+        <p>Aqui estão os serviços que eu ofereço para ajudar você a crescer na internet, sem complicação:</p>
+
+        <h3>Sites Personalizados para o Seu Negócio</h3>
+
+        <p>Eu crio sites únicos, feitos sob medida para o seu tipo de serviço e para o seu público. Nada de modelos prontos e genéricos. Seu site será exclusivo e refletirá a identidade do seu trabalho, transmitindo confiança e profissionalismo.</p>
+
+        <h3>Sites Otimizados para Resultados</h3>
+
+        <p>De nada adianta ter um site bonito, mas ele precisa ser encontrado pelos seus clientes. Eu garanto que o seu site seja otimizado para aparecer nas primeiras páginas do Google, quando alguém procurar pelo seu serviço. Isso é o que chamamos de SEO (otimização para motores de busca).</p>
+
+        <p>Eu ajusto seu site para que ele fique bem ranqueado, o que significa que mais clientes poderão te encontrar facilmente.</p>
+
+        <h3>Sites Responsivos: Funciona em Qualquer Dispositivo</h3>
+
+        <p>Hoje em dia, as pessoas acessam a internet de smartphones, tablets e computadores. Por isso, seu site precisa ser adaptável a qualquer tipo de dispositivo. Eu crio sites que funcionam perfeitamente em qualquer tela, garantindo que seus clientes tenham sempre uma boa experiência, não importa onde estejam.</p>
+
+        <h3>Manutenção e Suporte</h3>
+
+        <p>Criar o seu site é apenas o começo! Eu também ofereço suporte para garantir que tudo esteja funcionando bem, sempre atualizado e sem problemas. Se algo não estiver certo, estou aqui para resolver.</p>
+
+        <h3>Como isso vai ajudar você?</h3>
+
+        <p>Atração de mais clientes: Ter um site profissional aumenta as chances de ser encontrado por clientes em busca do seu serviço.</p>
+
+        <p>Credibilidade: Um site bem-feito passa confiança e demonstra que você é um profissional sério.</p>
+
+        <p>Mais tempo para você: Seu site vai trabalhar para você enquanto você cuida do seu atendimento e da qualidade do seu serviço.</p>
+        
+      </section>
+      <section id="praqueme" class="servicos sections">
+        <h2>Pra quem é</h2>
+        <h3>Profissional autônomo, o que está te impedindo de crescer?</h3>
+
+        <p>Você está cansando de depender apenas do boca a boca ou das redes sociais para atrair clientes? É hora de dar o próximo passo no seu negócio e garantir uma presença online que realmente converta.
+
+          Imagine estar no topo das buscas do Google quando seus potenciais clientes procuram exatamente pelo seu serviço. Imagine ter um site profissional que trabalha 24 horas por dia, 7 dias por semana, atraindo, qualificando e convertendo leads enquanto você foca no que realmente importa: o seu trabalho.</p>
+          
+        <h3>Por que você precisa de um site agora?</h3>
+        
+          <p>Clientes não te encontram? Um site otimizado coloca você no radar deles, exatamente quando eles mais precisam de você.</p>
+
+          <p>Credibilidade instantânea: Hoje em dia, se você não está online, não existe. Mostre seu valor com um site que transmita confiança e profissionalismo.</p>
+
+          <p>Você no topo das buscas: Seu futuro cliente está procurando por você no Google. Com o site certo, eles vão te encontrar primeiro.</p>
+
+          <p>Automatize sua prospecção: Seu site vai responder perguntas, agendar consultas e até fechar vendas automaticamente, enquanto você foca no que sabe fazer de melhor.</p>
+
+          <p>Se destaque da concorrência: Profissionais autônomos estão em toda parte. Mas quem tem um site profissional, com conteúdo focado, aparece como líder no mercado.</p>
+
+        <h3>Não fique para trás!</h3>
+        <p>Se você quer aumentar seus ganhos, atrair mais clientes e ser visto como referência no seu nicho, a única resposta é ter um site que faça o trabalho por você.</p>
+        
+        <p>Nós ajudamos profissionais autônomos a transformar suas carreiras. Deixe seu trabalho brilhar com um site que vende por você, mesmo quando você não está online.</p>
+
+        <p>O que você está esperando? A hora de investir no seu futuro é agora.</p>
+
+
+      </section>
+      <section id="demonstracoes" class="servicos sections">
+        <h2>Demonstrações</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet asperiores dolorum itaque tempora, a quos eaque sunt, vero cum deleniti? Rem praesentium omnis ipsam debitis accusamus quos, sapiente consequuntur!</p>
+      </section>
+      <section id="comofunciona" class="servicos sections">
+        <h2>Como funciona</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet asperiores dolorum itaque tempora, a quos eaque sunt, vero cum deleniti? Rem praesentium omnis ipsam debitis accusamus quos, sapiente consequuntur!</p>
+      </section>
+      <section id="sobremim" class="servicos sections">
+        <h2>Sobre mim</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet asperiores dolorum itaque tempora, a quos eaque sunt, vero cum deleniti? Rem praesentium omnis ipsam debitis accusamus quos, sapiente consequuntur!</p>
+      </section>
     </div>
 
-
-
-    
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
