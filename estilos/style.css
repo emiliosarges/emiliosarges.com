@@ -9,7 +9,7 @@
     --cor4: #3A4166;
     --cor5: #2C2E3C;
     --cor6: #2E2F33;
-    --cor7: #fff;
+    --cor7: #ffffff;
     --cor8: #111;
 }
 
@@ -33,7 +33,7 @@ header {
 header > h1 {
     padding: 120px 0px 120px 0px;
     text-align: center;
-    background-image: url(/imagens/imagem-banner-note.jpg);
+    background-image: url(/imagens/httpsouemilio.com.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -63,10 +63,15 @@ nav > a:hover {
 }
 
 main {
-    margin: auto;
+    margin: 0 auto;
     padding: 10px 10px;
     background-color: var(--cor7);
     max-width: 800px;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 ul {
