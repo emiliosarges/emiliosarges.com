@@ -25,6 +25,10 @@
     border-radius: 5px;
   }
 
+  h3 {
+    margin-top: 20px !important;
+  }
+
 .h2 .h3 p {
     font-family: 'Montserrat', sans-serif;
   }
