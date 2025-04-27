@@ -36,5 +36,53 @@
   #comofunciona i {
     min-width: 40px;
   }
+
+
+  
+  /* Estilos para a seção "Sobre mim" */
+.sobre-mim-section {
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    padding: 60px 0; /* Espaçamento superior e inferior */
+    color: #333; /* Cor de texto */
+  }
+  
+  .sobre-mim-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0056b3; /* Cor do título */
+    margin-bottom: 20px;
+  }
+  
+  .sobre-mim-section .descricao {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .sobre-mim-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-mim-section strong {
+    color: #0056b3; /* Cor dos destaques */
+  }
+  
+  .sobre-mim-section img {
+    max-width: 100%;
+    border-radius: 50%; /* Para imagem circular */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras sutis na imagem */
+  }
+  
+  @media (max-width: 768px) {
+    .sobre-mim-section .row {
+      text-align: center;
+    }
+  
+    .sobre-mim-section .col-lg-6 {
+      margin-bottom: 20px;
+    }
+  }
+  
   
 
