@@ -6,5 +6,13 @@
     box-sizing: border-box;
   }
 
+  .container {
+    
+  }
+
+  body {
+    background: var(--bs-body-color);
+  }
+
 
 
