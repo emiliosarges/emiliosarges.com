@@ -6,6 +6,10 @@
     box-sizing: border-box; 
   }
 
+  body {
+    font-family: 'Open Sans', sans-serif !important; 
+  }
+
 .principal {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,7 @@
     background-color: #0D6EFD !important ;
     padding: 5px;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif !important;
   }
 
   h3 {
@@ -37,12 +42,14 @@
     min-width: 40px;
   }
 
+  .botao {
+    margin: 15px;
+  }
 
-  
-  /* Estilos para a seção "Sobre mim" */
+
+ /* Estilos para a seção "Sobre mim" */
 .sobre-mim-section {
     background-color: #f9f9f9; /* Cor de fundo suave */
-    padding: 60px 0; /* Espaçamento superior e inferior */
     color: #333; /* Cor de texto */
   }
   
@@ -69,20 +76,64 @@
   }
   
   .sobre-mim-section img {
-    max-width: 100%;
+    max-width: 80%; /* Reduz a imagem para que não ocupe o espaço todo */
     border-radius: 50%; /* Para imagem circular */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras sutis na imagem */
   }
   
   @media (max-width: 768px) {
-    .sobre-mim-section .row {
-      text-align: center;
-    }
-  
     .sobre-mim-section .col-lg-6 {
       margin-bottom: 20px;
     }
   }
+
+  /* Melhorias sugeridas pela IA */
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .card-img-top {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  /*roda pé */
+  footer {
+    background-color: #343a40; /* Cor de fundo escura */
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #0D6EFD; /* Cor de destaque no hover */
+  }
+  
+  footer .fa {
+    transition: transform 0.3s;
+  }
+  
+  footer .fa:hover {
+    transform: scale(1.2); /* Aumenta o ícone quando passa o mouse */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 
